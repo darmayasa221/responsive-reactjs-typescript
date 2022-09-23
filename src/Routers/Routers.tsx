@@ -4,7 +4,7 @@ import App from "../App";
 const Routers = createBrowserRouter([
   {
     path: '/',
-    element: <App />
+    element: <App />,
   }
 ])
 

@@ -1,11 +1,15 @@
 import { css, Global } from "@emotion/react";
 import React from "react";
+import Footer from "./components/Footer/Footer";
+import InfoSection from "./components/InfoSection/InfoSection";
 import Navbar from "./components/Navbar/Navbar";
 import { mq } from "./globalStyle";
 function App() {
   return (
     <>
       <Navbar />
+        <InfoSection />
+        <Footer />
       <Global
         styles={css({
           "*": {
